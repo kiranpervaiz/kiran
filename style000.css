@@ -1,0 +1,379 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.container{
+    height: 98vh;
+    width: 100%;
+    background:none;
+    background-image: url(background-01.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+    
+
+}
+.nav-bar{
+    height: 10vh;
+    width: 100%;
+    background: rgb(190, 186, 186);
+    display: flex;
+    justify-content: space-around;
+    opacity: 80%;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.words{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3vh;
+    
+}
+.text{
+    height: 70vh;
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 5em;
+
+    
+        
+    
+    
+    
+}
+.btn{
+    height: 9vh;
+    width: 30%;
+    background: orange;
+    border-radius: 10%;
+}
+.container1{
+    height: 90vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.a{
+    height: 40vh;
+    width: 22%;
+    
+    line-height: 2em;
+    
+}
+.a h2{
+    color: orange;
+}
+.container2{
+    height: 80vh;
+    width: 100%;
+    background: rgb(229, 241, 243);
+    display: flex;
+}
+.one{
+    height: 80vh;
+    width: 50%;
+    
+    display: flex;
+   justify-content: flex-end;
+   
+    
+    
+}
+.two{
+    height: 80vh;
+    width: 50%;
+   background:rgb(231, 246, 248);;
+    display: flex;
+    justify-content: center;
+}
+.b{
+    height: 13vh;
+    width: 65%;
+    background: white;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+}
+.oneone{
+    height: 80vh;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.twotwo{
+    height: 80vh;
+    width:80%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.c{
+    height: 30vh;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(icon.svg);
+    background-repeat: no-repeat;
+
+   
+}
+.d{
+    height: 13vh;
+    width: 45%;
+   
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container3{
+    height: 100vh;
+    width: 100%;
+   background: white;
+}
+.textone{
+    height: 25vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 3rem;
+}
+.threepic{
+    height: 80vh;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+.x{
+    height: 60vh;
+    width: 25%;
+   
+    line-height: 3rem;
+}
+.y{
+    height: 60vh;
+    width: 25%;
+   
+    line-height: 2rem;
+}
+.z{
+    height: 60vh;
+    width: 25%;
+    
+    line-height: 2rem;
+}
+.y h2{
+    color: orange;
+}
+.z h2{
+    color: orange;
+}
+.btn1{
+    height: 7vh;
+    width: 40%;
+    background: orange;
+    border-radius: 10% ;
+}
+.last{
+    height: 80vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lastone{
+    height: 60vh;
+    width: 30%;
+   
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.blank{
+    height: 0.5vh;
+    width: 60%;
+    background:grey;
+}
+.laxt h2{
+    color: tomato;
+    
+}
+.laxt{
+    height: 60vh;
+    width:80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.e{
+    height: 80vh;
+    width:80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+.lasttwo{
+    height: 40vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:800px){
+.nav-bar{
+    flex-direction: column;
+    align-items: center;
+   
+}
+.words li{
+    margin: 10px;
+
+}
+.container{
+    height: 1000px;
+    width: 100%;
+    
+}
+.text{
+    height: 600px;
+    width: 550px;
+
+}
+.btn{
+    height: 50px;
+    width:70%;
+}
+
+}
+@media screen and (max-width:800px){
+    .container1{
+        height: 1500px;
+        
+    }
+    .a{
+        height: 200px;
+        width: 40%;
+        
+       
+    }
+}
+@media screen and (max-width:800px){
+    .container2{
+        margin-top: 100px;
+        height: 1500px;
+        flex-direction: column;
+        
+    }
+    .one{
+        height: 200px;
+        width:500px;
+        margin-top: 100px;
+        
+    }
+    .two{
+        height: 600px;
+        width:500px;
+        margin-top: 500px;
+    }
+}
+@media screen and (max-width:1125px){
+    .container2{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .container3{
+        height: 1500px;
+        text-align:center ;
+    }
+    .threepic{
+        height: 1300px;
+        flex-direction: column;
+    }
+    .x{
+        height: 500px;
+        width: 500px;
+        margin-top: 100px;
+    }
+    .y{
+        height: 500px;
+        width: 500px;
+        margin-top: 50px;
+       
+    }
+    .z{
+        height: 500px;
+        width: 500px;
+        margin-top: 50px;
+       
+    }
+}
+@media screen and (max-width:800px){
+    .last{
+        height: 1500px;
+        flex-direction: column;
+        
+    }
+    .lastone{
+        height: 500px;
+        width: 600px;
+        text-align: center;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:800px){
+    .lasttwo img{
+       
+        width: 500px;
+
+    }
+}
+@media screen and (max-width:523px){
+    .lasttwo img{
+        width: 450px;
+    }
+}
